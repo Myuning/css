@@ -1,0 +1,28 @@
+.heart{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    background: red;
+    transform: rotate(45deg);
+}
+
+.heart:before, .heart:after {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 50%;
+}
+
+.heart:before{
+    top: 0;
+    left: -50px;
+}
+
+.heart:after{
+    top: -50px;
+    right: 0;
+}
