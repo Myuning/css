@@ -1,0 +1,50 @@
+.notching{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 200px;
+    padding: 60px 20px;
+    transform: translate(-50%, -50%);
+}
+
+.notching{
+    background: linear-gradient(135deg, transparent 15px, deeppink 0) top left,
+                linear-gradient(-135deg, transparent 15px, deeppink 0) top right,
+                linear-gradient(-45deg, transparent 15px, deeppink 0) bottom right,
+                linear-gradient(45deg, transparent 15px, deeppink 0) bottom left;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.gradients1{
+    position: absolute;
+    left: 20%;
+    top: 10px;
+    background: linear-gradient(135deg, transparent 15px, greenyellow 0);
+    padding: 30px 10px;
+    width: 200px;
+}
+.gradients2{
+    position: absolute;
+    left: 20%;
+    top: 90px;
+    background: linear-gradient(-135deg, transparent 15px, rosybrown 0);
+    padding: 30px 10px;
+    width: 200px;
+}
+.gradients3{
+    position: absolute;
+    left: 20%;
+    top: 170px;
+    background: linear-gradient(45deg, transparent 15px, goldenrod 0);
+    padding: 30px 10px;
+    width: 200px;
+}
+.gradients4{
+    position: absolute;
+    left: 20%;
+    top: 250px;
+    background: linear-gradient(-45deg, transparent 15px, skyblue 0);
+    padding: 30px 10px;
+    width: 200px;
+}
